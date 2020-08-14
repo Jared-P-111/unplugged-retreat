@@ -93,7 +93,7 @@ header, footer {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  flex-flow: row wrap;
 }
 
 header .content-wrapper {
@@ -118,11 +118,11 @@ header .header-divider {
 
 header nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   padding: 0px;
-  width: 150px;
+  width: 100%;
 }
 
 header nav ul li {
@@ -133,6 +133,7 @@ footer .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 footer .social {
@@ -157,12 +158,9 @@ footer p {
 
 footer .footer-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-}
-
-footer .contact {
   width: 100%;
 }
 
@@ -170,6 +168,15 @@ footer .social {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 375px;
+}
+
+footer .copyright {
+  width: 100%;
+}
+
+footer .contact {
+  width: 375px;
 }
 
 /*--------------------Home Page Styles-----------------------------*/
@@ -186,11 +193,23 @@ footer .social {
   align-items: center;
 }
 
-.features {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+/*--------------------About Page Styles----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------FAQ Page Styles------------------------------*/
+
+
+
 
 
 
